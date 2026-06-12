@@ -1,0 +1,104 @@
+Tesla Scalar - GRUPA 2 / 2A (k-wave-python: talas + prava frekvencija)
+CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4630_k46.csv
+Izvlacenja: 4630 | Seed: 39 | tezine: talas=0.7 freq=0.3
+
+Brojevi po kombinovanom skoru (tezinski talas + frekvencija):
+  34  skor=0.9121841284  freq=0.02694  (pojava=873)
+  14  skor=0.7895833333  freq=0.02496  (pojava=809)
+  08  skor=0.6983287873  freq=0.02808  (pojava=910)
+  24  skor=0.6931807556  freq=0.02592  (pojava=840)
+  33  skor=0.6791768738  freq=0.02635  (pojava=854)
+  16  skor=0.6572597948  freq=0.02583  (pojava=837)
+  19  skor=0.6508913033  freq=0.02508  (pojava=813)
+  06  skor=0.6504542415  freq=0.02518  (pojava=816)
+  11  skor=0.5945810001  freq=0.02654  (pojava=860)
+  01  skor=0.5662804330  freq=0.02431  (pojava=788)
+  29  skor=0.5616470184  freq=0.02616  (pojava=848)
+  39  skor=0.5361712043  freq=0.02620  (pojava=849)
+  31  skor=0.5352081677  freq=0.02561  (pojava=830)
+  38  skor=0.5266413602  freq=0.02598  (pojava=842)
+  10  skor=0.5228249559  freq=0.02607  (pojava=845)
+  37  skor=0.4998906681  freq=0.02654  (pojava=860)
+  25  skor=0.4837066810  freq=0.02589  (pojava=839)
+  05  skor=0.4739891462  freq=0.02555  (pojava=828)
+  07  skor=0.4699345129  freq=0.02598  (pojava=842)
+  22  skor=0.4672286181  freq=0.02626  (pojava=851)
+  27  skor=0.4642633560  freq=0.02431  (pojava=788)
+  32  skor=0.4518935274  freq=0.02644  (pojava=857)
+  04  skor=0.4369429121  freq=0.02505  (pojava=812)
+  02  skor=0.4365513299  freq=0.02542  (pojava=824)
+  30  skor=0.4319805267  freq=0.02428  (pojava=787)
+  35  skor=0.4276534181  freq=0.02601  (pojava=843)
+  23  skor=0.4247777451  freq=0.02792  (pojava=905)
+  18  skor=0.4221437873  freq=0.02530  (pojava=820)
+  03  skor=0.4214431949  freq=0.02546  (pojava=825)
+  13  skor=0.4155194711  freq=0.02555  (pojava=828)
+  09  skor=0.3824730276  freq=0.02601  (pojava=843)
+  20  skor=0.3709121620  freq=0.02376  (pojava=770)
+  36  skor=0.3612526030  freq=0.02425  (pojava=786)
+  28  skor=0.3484860850  freq=0.02530  (pojava=820)
+  21  skor=0.2957334880  freq=0.02549  (pojava=826)
+  26  skor=0.2145833333  freq=0.02681  (pojava=869)
+  12  skor=0.1911095841  freq=0.02499  (pojava=810)
+  15  skor=0.1600690679  freq=0.02459  (pojava=797)
+  17  skor=0.0753606126  freq=0.02363  (pojava=766)
+
+Tabela pravih frekvencija (opadajuce po freq, pa po broju):
+  broj | pojava |   udeo
+  -----+--------+--------
+   08  |   910  | 0.02808
+   23  |   905  | 0.02792
+   34  |   873  | 0.02694
+   26  |   869  | 0.02681
+   37  |   860  | 0.02654
+   11  |   860  | 0.02654
+   32  |   857  | 0.02644
+   33  |   854  | 0.02635
+   22  |   851  | 0.02626
+   39  |   849  | 0.02620
+   29  |   848  | 0.02616
+   10  |   845  | 0.02607
+   35  |   843  | 0.02601
+   09  |   843  | 0.02601
+   38  |   842  | 0.02598
+   07  |   842  | 0.02598
+   24  |   840  | 0.02592
+   25  |   839  | 0.02589
+   16  |   837  | 0.02583
+   31  |   830  | 0.02561
+   13  |   828  | 0.02555
+   05  |   828  | 0.02555
+   21  |   826  | 0.02549
+   03  |   825  | 0.02546
+   02  |   824  | 0.02542
+   28  |   820  | 0.02530
+   18  |   820  | 0.02530
+   06  |   816  | 0.02518
+   19  |   813  | 0.02508
+   04  |   812  | 0.02505
+   12  |   810  | 0.02499
+   14  |   809  | 0.02496
+   15  |   797  | 0.02459
+   27  |   788  | 0.02431
+   01  |   788  | 0.02431
+   30  |   787  | 0.02428
+   36  |   786  | 0.02425
+   20  |   770  | 0.02376
+   17  |   766  | 0.02363
+  ukupno pojava: 32410
+
+Predlozene kombinacije (rangirane po skoru kombinacije):
+  01. 05 10 11 23 33 34 39  skor_komb=4.1437050539
+  02. 01 08 13 19 22 30 34  skor_komb=4.1424132679
+  03. 16 24 25 27 29 31 33  skor_komb=4.0744426473
+  04. 01 09 14 19 23 33 38  skor_komb=4.0198240763
+  05. 04 06 11 13 14 27 39  skor_komb=3.8875155185
+  06. 04 06 09 11 29 30 39  skor_komb=3.5942499308
+  07. 08 09 19 27 28 31 37  skor_komb=3.5795413950
+  08. 06 09 12 20 22 24 33  skor_komb=3.4345352628
+  09. 07 15 16 21 25 32 33  skor_komb=3.1977739458
+  10. 04 09 23 27 31 36 37  skor_komb=3.1048084795
+
+Slike talasa/polja:
+  PNG: /Users/4c/Desktop/GHQ/Tesla/tesla_k-wave-python_2A.png
+  JPG: /Users/4c/Desktop/GHQ/Tesla/tesla_k-wave-python_2A.jpg
