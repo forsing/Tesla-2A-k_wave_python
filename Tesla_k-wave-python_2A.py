@@ -174,42 +174,42 @@ if __name__ == "__main__":
 
 """
 Tesla Scalar - GRUPA 2 / 2A (k-wave-python: talas + prava frekvencija)
-CSV: /Users/4c/Desktop/GHQ/data/loto7hh_4630_k46.csv | Izvlacenja: 4630 | tezine: talas=0.7 freq=0.3
+CSV: /data/loto7hh_4630_k46.csv | Izvlacenja: 4630 | tezine: talas=0.7 freq=0.3
 
 Top 10 brojeva po kombinovanom skoru (tezinski talas + frekvencija):
   34  skor=0.9121841284  freq=0.02694  (pojava=873)
-  14  skor=0.7895833333  freq=0.02496  (pojava=809)
+   x  skor=0.7895833333  freq=0.02496  (pojava=809)
   08  skor=0.6983287873  freq=0.02808  (pojava=910)
-  24  skor=0.6931807556  freq=0.02592  (pojava=840)
+   y  skor=0.6931807556  freq=0.02592  (pojava=840)
   33  skor=0.6791768738  freq=0.02635  (pojava=854)
-  16  skor=0.6572597948  freq=0.02583  (pojava=837)
+   z  skor=0.6572597948  freq=0.02583  (pojava=837)
   19  skor=0.6508913033  freq=0.02508  (pojava=813)
-  06  skor=0.6504542415  freq=0.02518  (pojava=816)
+   x  skor=0.6504542415  freq=0.02518  (pojava=816)
   11  skor=0.5945810001  freq=0.02654  (pojava=860)
-  01  skor=0.5662804330  freq=0.02431  (pojava=788)
+   y  skor=0.5662804330  freq=0.02431  (pojava=788)
 
 
 Tabela pravih frekvencija (opadajuce po freq, pa po broju):
   broj | pojava |   udeo
   -----+--------+--------
    08  |   910  | 0.02808
-   23  |   905  | 0.02792
+    x  |   905  | 0.02792
    34  |   873  | 0.02694
-   26  |   869  | 0.02681
+    y  |   869  | 0.02681
    37  |   860  | 0.02654
-   11  |   860  | 0.02654
+    z  |   860  | 0.02654
    32  |   857  | 0.02644
-   33  |   854  | 0.02635
+    x  |   854  | 0.02635
    22  |   851  | 0.02626
-   39  |   849  | 0.02620
+    y  |   849  | 0.02620
    29  |   848  | 0.02616
-   10  |   845  | 0.02607
+    z  |   845  | 0.02607
    35  |   843  | 0.02601
-   09  |   843  | 0.02601
+    x  |   843  | 0.02601
    38  |   842  | 0.02598
-   07  |   842  | 0.02598
+    y  |   842  | 0.02598
    24  |   840  | 0.02592
-   25  |   839  | 0.02589
+    z  |   839  | 0.02589
    16  |   837  | 0.02583
    31  |   830  | 0.02561
    13  |   828  | 0.02555
@@ -235,22 +235,22 @@ Tabela pravih frekvencija (opadajuce po freq, pa po broju):
 
 
 Predlozene kombinacije (rangirane po skoru kombinacije):
-  01. 05 10 11 23 33 34 39  skor_komb=4.1437050539
-  02. 01 08 13 19 22 30 34  skor_komb=4.1424132679
-  03. 16 24 25 27 29 31 33  skor_komb=4.0744426473
-  04. 01 09 14 19 23 33 38  skor_komb=4.0198240763
-  05. 04 06 11 13 14 27 39  skor_komb=3.8875155185
-  06. 04 06 09 11 29 30 39  skor_komb=3.5942499308
-  07. 08 09 19 27 28 31 37  skor_komb=3.5795413950
-  08. 06 09 12 20 22 24 33  skor_komb=3.4345352628
-  09. 07 15 16 21 25 32 33  skor_komb=3.1977739458
-  10. 04 09 23 27 31 36 37  skor_komb=3.1048084795
+  01. 05 x 11 y 33 z 39  skor_komb=4.1437050539
+  02. 01 x 13 y 22 z 34  skor_komb=4.1424132679
+  03. 16 x 25 y 29 z 33  skor_komb=4.0744426473
+  04. 01 x 14 y 23 z 38  skor_komb=4.0198240763
+  05. 04 x 11 y 14 z 39  skor_komb=3.8875155185
+  06. 04 x 09 y 29 z 39  skor_komb=3.5942499308
+  07. 08 x 19 y 28 z 37  skor_komb=3.5795413950
+  08. 06 x 12 y 22 z 33  skor_komb=3.4345352628
+  09. 07 x 16 y 25 z 33  skor_komb=3.1977739458
+  10. 04 x 23 y 31 z 37  skor_komb=3.1048084795
 
 Sacuvano: /Users/4c/Desktop/GHQ/Tesla/tesla_k-wave-python_2A.txt
 
 Slike talasa/polja:
-  PNG: /Users/4c/Desktop/GHQ/Tesla/tesla_k-wave-python_2A.png
-  JPG: /Users/4c/Desktop/GHQ/Tesla/tesla_k-wave-python_2A.jpg
+  PNG: /Tesla/tesla_k-wave-python_2A.png
+  JPG: /Tesla/tesla_k-wave-python_2A.jpg
 """
 
 
@@ -268,7 +268,7 @@ Top broj je opet 34, ali odmah ispod je 14 (skor 0.79) — a 14 je po frekvencij
 Znači talas ga je podigao, ne frekvencija. To je tačno ono što tražim: ne-frekvencijski signal iz prave FDTD simulacije.
 Slično 19 i 06 su u top 10 iako su frekvencijski ispod proseka → opet talas radi.
 Kombinacije su potpuno drugačije od grupe 1.
-Favorit 2A: 05 10 11 23 33 34 39 (skor_komb 4.1437).
+Favorit 2A: 05 x 11 y 33 z 39 (skor_komb 4.1437).
 Poređenje grupa 1 vs 2A je smisleno: 
 ista struktura, drugi motor, drugačiji rezultat 
 """
@@ -314,17 +314,17 @@ Motor: k-wave-python, FDTD/pseudospektralna simulacija talasnog polja.
 Ovo je fizički ozbiljniji talasni motor od Tesla 1. 
 Uzimam liniju kroz 2D polje u pravcu prostiranja, pa iz nje S(x) i E_x = -dS/dx.
 
-Top brojevi (talas + freq, 0.7/0.3): 34 (0.912) · 14 (0.790) · 08 (0.698) · 24 (0.693) · 33 (0.679) · 16 (0.657) · 19 (0.651) · 06 (0.650) · 11 (0.595) · 01 (0.566)
+Top brojevi (talas + freq, 0.7/0.3): 34 (0.912) · x (0.790) · 08 (0.698) · y (0.693) · 33 (0.679) · z (0.657) · 19 (0.651) · x (0.650) · 11 (0.595) · y (0.566)
 
 34 ostaje #1, kao i u Tesla 1 → stabilan signal kroz dva različita motora.
-14 je #2 iako je frekvencijski slab (809, pri dnu) → jak ne-frekvencijski talasni efekat.
-19, 06, 01 su takođe nisko/srednje po frekvenciji, ali visoko po skoru → k-wave motor jasno menja rang.
+x je #2 iako je frekvencijski slab (809, pri dnu) → jak ne-frekvencijski talasni efekat.
+19, y, 01 su takođe nisko/srednje po frekvenciji, ali visoko po skoru → k-wave motor jasno menja rang.
 35, koji je bio #2 u Tesla 1, ispada iz top 10 → znači 2A nije samo kopija Tesla 1.
-Favorit kombinacija: 05 10 11 23 33 34 39 (skor_komb = 4.1437). 
-Druga je skoro izjednačena: 01 08 13 19 22 30 34 (4.1424).
+Favorit kombinacija: 05 x 11 y 33 z 39 (skor_komb = 4.1437). 
+Druga je skoro izjednačena: 01 x 13 y 22 z 34 (4.1424).
 
 Zaključak: 2A je bolji „fizički" kandidat od Tesla 1 jer koristi pravi talasni solver. 
-Daje drugačiju topologiju skora, ali zadržava neke stabilne brojeve (34, 08, 33). 
+Daje drugačiju topologiju skora, ali zadržava neke stabilne brojeve (34, x, 33). 
 Posebno je interesantan broj 14, jer ga frekvencija ne objašnjava.
 """
 
